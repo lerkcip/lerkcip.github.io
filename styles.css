@@ -153,3 +153,35 @@ footer {
   text-align: center;
   font-style: italic;
 }
+
+/* Contact page styles */
+.contact-container {
+  background: #181818;
+  border-radius: 16px;
+  padding: 2.5rem 2rem;
+  margin: 2.5rem auto;
+  max-width: 800px;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+}
+.contact-container p {
+  margin: 1.5rem 0;
+  font-size: 1.2rem;
+}
+.contact-container strong {
+  font-weight: bold;
+  color: #fff;
+  margin-right: 0.5rem;
+}
+.contact-link a {
+  color: #ffa500;
+  text-decoration: none;
+  font-weight: 500;
+  word-break: break-all;
+}
+.contact-link a:hover {
+  text-decoration: underline;
+  color: #00aaff;
+}
+
